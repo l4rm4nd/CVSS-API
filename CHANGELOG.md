@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.2...v0.1.3) (2025-02-20)
+
+
+### Bug Fixes
+
+* error msg ([850a8cd](https://github.com/l4rm4nd/CVSS-API/commit/850a8cdad5f6dc262b910686234eae3855f48cb3))
+
 ## [0.1.2](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.1...v0.1.2) (2025-02-20)
 
 
