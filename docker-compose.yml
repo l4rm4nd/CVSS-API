@@ -1,0 +1,23 @@
+services:
+
+  api:
+    image: ghcr.io/l4rm4nd/cvss-api:latest
+    container_name: cvss-api
+    restart: unless-stopped
+    expose:
+      - 5000/tcp
+    ports:
+      - 5000:5000/tcp
+    #networks:
+    #  - proxy
+    #labels:
+    #  - traefik.enable=true
+    #  - traefik.docker.network=proxy
+    #  - traefik.http.routers.cvss-api.rule=Host(`cvss.example.com`)
+    #  - traefik.http.services.cvss-api.loadbalancer.server.port=5000
+    #  # Optional part for traefik middlewares
+    #  #- traefik.http.routers.cvss-api.middlewares=local-ipwhitelist@file
+
+#networks:
+#  proxy:
+#    external: true
