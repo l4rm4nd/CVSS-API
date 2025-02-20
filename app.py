@@ -9,7 +9,7 @@ CORS(app)  # Enable CORS for all routes and origins
 @app.route('/cvss', methods=['GET'])
 def calculate_cvss():
     vector = request.args.get('vector', '')
-    version = os.getenv('SECRET_KEY', 'unknown')
+    version = os.getenv('VERSION', 'unknown')
 
     if not vector:
         return jsonify({"error": "No CVSS vector provided"}), 400
