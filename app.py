@@ -22,7 +22,7 @@ def calculate_cvss():
         elif vector.startswith("CVSS:4."):
             score = CVSS4(vector).scores()[0]  # Base Score
         else:
-            return jsonify({"error": "Unsupported or invalsid CVSS version"}), 400
+            return jsonify({"error": "Unsupported or invalid CVSS vector string"}), 400
 
         return jsonify({"cvss_vector": vector, "cvss_score": score, "api_version": version})
     except Exception as e:
