@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.3...v0.1.4) (2025-02-20)
+
+
+### Bug Fixes
+
+* disable debug mode ([3aa0480](https://github.com/l4rm4nd/CVSS-API/commit/3aa04808c3707c5f6490e03d8dfc41cfa3cf5054))
+
 ## [0.1.3](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.2...v0.1.3) (2025-02-20)
 
 
