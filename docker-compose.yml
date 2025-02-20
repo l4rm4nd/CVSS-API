@@ -4,6 +4,13 @@ services:
     image: ghcr.io/l4rm4nd/cvss-api:latest
     container_name: cvss-api
     restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL    
     expose:
       - 5000/tcp
     ports:
