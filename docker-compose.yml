@@ -20,7 +20,7 @@ services:
     #labels:
     #  - traefik.enable=true
     #  - traefik.docker.network=proxy
-    #  - traefik.http.routers.cvss-api.rule=Host(`cvss.example.com`)
+    #  - traefik.http.routers.cvss-api.rule=Host(`cvss.example.com`) && PathPrefix(/cvss)
     #  - traefik.http.services.cvss-api.loadbalancer.server.port=5000
     #  # Optional part for traefik middlewares
     #  #- traefik.http.routers.cvss-api.middlewares=local-ipwhitelist@file
