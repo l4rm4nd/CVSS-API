@@ -1,3 +1,10 @@
+## [0.1.7](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.6...v0.1.7) (2026-03-20)
+
+
+### Bug Fixes
+
+* bump libs ([6da5c5f](https://github.com/l4rm4nd/CVSS-API/commit/6da5c5f2b986eae7c61d0e0ca989d31f358e0109))
+
 ## [0.1.6](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.5...v0.1.6) (2026-03-20)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * error msg ([850a8cd](https://github.com/l4rm4nd/CVSS-API/commit/850a8cdad5f6dc262b910686234eae3855f48cb3))
-
-## [0.1.2](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.1...v0.1.2) (2025-02-20)
-
-
-### Bug Fixes
-
-* version env ([97f6a28](https://github.com/l4rm4nd/CVSS-API/commit/97f6a28fa37833086f10bd405c51ca9d440f4141))
 
