@@ -2,7 +2,7 @@
 
 Simple Python Flask API server that returns CVSS scores for CVSS vector strings.
 
-## 🐳 Usage
+## 🐳 Usage 
 
 You can use the provided `docker-compose.yml` or just run:
 
