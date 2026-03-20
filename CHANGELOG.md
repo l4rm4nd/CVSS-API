@@ -1,3 +1,10 @@
+## [0.1.6](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.5...v0.1.6) (2026-03-20)
+
+
+### Bug Fixes
+
+* trigger ci build ([2b92f71](https://github.com/l4rm4nd/CVSS-API/commit/2b92f71b206aa157c78a23e10266bfdfea84a802))
+
 ## [0.1.5](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.4...v0.1.5) (2025-02-20)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * version env ([97f6a28](https://github.com/l4rm4nd/CVSS-API/commit/97f6a28fa37833086f10bd405c51ca9d440f4141))
-
-## [0.1.1](https://github.com/l4rm4nd/CVSS-API/compare/v0.1.0...v0.1.1) (2025-02-20)
-
-
-### Bug Fixes
-
-* add version env ([58acce2](https://github.com/l4rm4nd/CVSS-API/commit/58acce2a4593d5de1bd6862b2f57a9dc14059208))
 
